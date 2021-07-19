@@ -41,6 +41,9 @@ ro.vendor.qti.va_aosp.support=1
 # GPS
 persist.backup.ntpServer=0.pool.ntp.org
 
+# Low Memory Killer
+ro.lmk.filecache_min_kb=153600
+
 # Media
 qcom.hw.aac.encoder=true
 media.aac_51_output_enabled=true
