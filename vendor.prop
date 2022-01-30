@@ -190,6 +190,10 @@ ro.surface_flinger.use_color_management=false
 persist.sys.sf.color_saturation=1.0
 vendor.gralloc.disable_ubwc=0
 
+# HWUI
+debug.hwui.target_cpu_time_percent=30
+debug.hwui.use_hint_manager=true
+
 # IDD
 vendor.idd.product.name=pdx201
 
