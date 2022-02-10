@@ -13,6 +13,6 @@ audio.sys.routing.latency=0
 ro.af.client_heap_size_kbyte=7168
 
 # Bluetooth
-bluetooth.profile.asha.central=true
+bluetooth.profile.asha.central.enabled=true
 persist.bluetooth.bqr.event_mask=14
 persist.bluetooth.bqr.min_interval_ms=500
