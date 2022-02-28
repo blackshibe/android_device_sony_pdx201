@@ -226,6 +226,7 @@ PRODUCT_PACKAGES += \
 
 # Fastbootd
 PRODUCT_PACKAGES += \
+    android.hardware.fastboot@1.1-impl.custom \
     fastbootd
 
 # Fingerprint
