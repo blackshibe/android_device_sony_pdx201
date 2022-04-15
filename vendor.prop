@@ -85,6 +85,7 @@ vendor.audio.feature.wsa.enable=false
 vendor.audio.volume.headset.gain.depcal=true
 
 # Bluetooth
+bluetooth.device.default_name=Xperia 10 II
 persist.bluetooth.a2dp_offload.disabled=false
 persist.vendor.qcom.bluetooth.a2dp_offload_cap=sbc-aptx-aptxtws-aptxhd-aac-ldac-aptxadaptive
 persist.vendor.qcom.bluetooth.aac_vbr_ctl.enabled=true
