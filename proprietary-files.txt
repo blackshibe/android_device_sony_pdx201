@@ -115,6 +115,10 @@ vendor/lib64/libbluetooth_audio_session_qti_2_1.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so
 
+# Bluetooth (aptX) - from sunfish-user 12 SQ3A.220705.003.A1 8672226 release-keys
+system_ext/lib64/libaptXHD_encoder.so|e13fa70c97caaa24d061678bdee608eb8850a69e
+system_ext/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
+
 # Camera
 vendor/bin/mm-qcamera-app
 vendor/etc/camera/IMX486/ISO12800_2448x2448.ncf
