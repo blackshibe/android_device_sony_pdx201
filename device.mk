@@ -512,7 +512,7 @@ BOARD_SHIPPING_API_LEVEL := 30
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi-service \
     hostapd \
     libwifi-hal-ctrl \
     libwifi-hal-qcom \
