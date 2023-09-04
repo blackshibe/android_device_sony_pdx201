@@ -544,7 +544,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia1" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia1" value="1" />
     </path>
 
     <path name="deep-buffer-playback handset">
@@ -643,7 +642,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia5" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia5" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia5" value="1" />
     </path>
 
     <path name="low-latency-playback handset">
@@ -742,7 +740,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia8" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia3" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia3" value="1" />
     </path>
 
     <path name="audio-ull-playback handset">
@@ -946,7 +943,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia7" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia7" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia7" value="1" />
     </path>
 
     <path name="compress-offload-playback2 handset">
@@ -1053,7 +1049,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia10" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia10" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia10" value="1" />
     </path>
 
     <path name="compress-offload-playback3 handset">
@@ -1148,7 +1143,6 @@
         <ctl name="WSA_CDC_DMA_RX_0 Audio Mixer MultiMedia11" value="1" />
         -->
         <ctl name="PRI_MI2S_RX Audio Mixer MultiMedia11" value="1" />
-        <ctl name="RX_CDC_DMA_RX_0 Audio Mixer MultiMedia11" value="1" />
     </path>
 
     <path name="compress-offload-playback4 handset">
@@ -2658,16 +2652,6 @@
         <ctl name="TX DMIC MUX0" value="DMIC3" />
     </path>
 
-    <path name="handset-as-speaker">
-        <ctl name="RX_MACRO RX0 MUX" value="AIF1_PB" />
-        <ctl name="RX_CDC_DMA_RX_0 Channels" value="One" />
-        <ctl name="RX INT0_1 MIX1 INP0" value="RX0" />
-        <ctl name="RX INT0 DEM MUX" value="CLSH_DSM_OUT" />
-        <ctl name="EAR_RDAC Switch" value="1" />
-        <ctl name="RDAC3_MUX" value="RX1" />
-        <ctl name="RX_RX0 Digital Volume" value="92" />
-    </path>
-
     <path name="speaker">
         <!--
         <ctl name="WSA_CDC_DMA_RX_0 Channels" value="One" />
@@ -2680,7 +2664,6 @@
         <ctl name="SpkrLeft SWR DAC_Port Switch" value="1" />
         -->
         <ctl name="PCM Source" value="DSP" />
-        <path name="handset-as-speaker" />
     </path>
 
     <path name="speaker-mono">
@@ -2752,10 +2735,10 @@
         <ctl name="TX_CDC_DMA_TX_3 Channels" value="Two" />
         <ctl name="TX_AIF1_CAP Mixer DEC0" value="1" />
         <ctl name="TX DMIC MUX0" value="DMIC0" />
-        <ctl name="TX_DEC0 Volume" value="83" />
+        <ctl name="TX_DEC0 Volume" value="114" />
         <ctl name="TX_AIF1_CAP Mixer DEC1" value="1" />
         <ctl name="TX DMIC MUX1" value="DMIC2" />
-        <ctl name="TX_DEC1 Volume" value="80" />
+        <ctl name="TX_DEC1 Volume" value="110" />
         <ctl name="TX_CDC_DMA_TX_3 Format" value="S24_LE" />
     </path>
 
