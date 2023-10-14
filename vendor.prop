@@ -233,6 +233,7 @@ persist.vendor.radio.unicode_op_names=true
 persist.vendor.service.bdroid.ssrlvl=3
 
 # Sensors
+persist.vendor.sensors.debug.hal=0
 persist.vendor.sensors.enable.bypass_worker=true
 persist.vendor.sensors.enable.rt_task=false
 persist.vendor.sensors.support_direct_channel=false
