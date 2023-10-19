@@ -41,6 +41,7 @@
 /(vendor|system/vendor)/bin/mlog_qmi_service                u:object_r:mlog_qmi_service_exec:s0
 
 # NFC
+/vendor/bin/hw/android.hardware\.nfc-service\.nxp                       u:object_r:hal_nfc_default_exec:s0
 /dev/pn553    u:object_r:nfc_device:s0
 
 # Partitions

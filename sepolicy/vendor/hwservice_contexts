@@ -11,10 +11,6 @@ vendor.egistec.hardware.fingerprint::IBiometricsFingerprintRbs                  
 # IDD
 vendor.semc.system.idd::IIdd                                                                u:object_r:hal_idd_hwservice:s0
 
-# NFC
-vendor.nxp.nxpese::INxpEse                                                                  u:object_r:nxpese_hwservice:s0
-vendor.nxp.nxpnfc::INxpNfc                                                                  u:object_r:hal_nxpnfc_hwservice:s0
-
 # Radio
 vendor.somc.hardware.radio::ISomcHook                                                       u:object_r:somc_hw_radio_hwservice:s0
 

@@ -11,10 +11,6 @@ type hal_egis_hwservice, hwservice_manager_type;
 # IDD
 type hal_idd_hwservice, hwservice_manager_type;
 
-# NFC
-type hal_nxpnfc_hwservice, hwservice_manager_type;
-type nxpese_hwservice, hwservice_manager_type;
-
 # Radio
 type somc_hw_radio_hwservice, hwservice_manager_type;
 
