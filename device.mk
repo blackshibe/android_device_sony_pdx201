@@ -425,6 +425,7 @@ PRODUCT_PACKAGES += \
     extphonelib \
     extphonelib.xml \
     libprotobuf-cpp-full \
+    libprotobuf-cpp-lite-3.9.1-vendorcompat \
     librmnetctl \
     libxml2
 
