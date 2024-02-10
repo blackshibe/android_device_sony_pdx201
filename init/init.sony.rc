@@ -115,9 +115,6 @@ on post-fs
     chmod 0664 /mnt/vendor/persist/sensors/sensors_settings
     exec - system system -- /vendor/bin/somc_reg_update
 
-    # SKU
-    setprop ro.boot.product.hardware.sku ${ro.vendor.somc.model}
-
     # Telephony
     setprop persist.radio.multisim.config ${vendor.radio.multisim.config}
 
@@ -252,12 +249,6 @@ on property:sys.usb.ffs.ready=1 && property:sys.usb.config=rndis,diag,adb && pro
 on property:sys.usb.ffs.ready=1 && property:sys.usb.config=rndis,none,adb && property:sys.usb.configfs=1
     write /config/usb_gadget/g1/idVendor 0x0FCE
     write /config/usb_gadget/g1/idProduct 0x020D
-
-# For Japan SKU, always enforce camera shutter sound
-# Since this property is read by the audio server in system service,
-# it should be written by the system init.
-on property:ro.boot.product.hardware.sku=XQ-AU42
-    setprop audio.camerasound.force true
 
 # SONY: TrimArea Daemon
 service tad /vendor/bin/tad /dev/block/bootdevice/by-name/TA 0,16
