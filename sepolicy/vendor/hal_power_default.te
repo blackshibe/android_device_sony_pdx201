@@ -1,7 +1,6 @@
 typeattribute hal_power_default mlstrustedsubject;
 
 allow hal_power_default {
-  cgroup
   vendor_proc_energy_aware
   vendor_sysfs_devfreq
   vendor_sysfs_graphics
@@ -9,8 +8,6 @@ allow hal_power_default {
 }:dir r_dir_perms;
 
 allow hal_power_default {
-  cgroup
-  sysfs_devices_system_cpu
   vendor_proc_energy_aware
   vendor_sysfs_devfreq
   vendor_sysfs_graphics
@@ -28,6 +25,3 @@ allow hal_power_default appdomain:process { getsched setsched };
 allow hal_power_default self:capability sys_nice;
 
 allow hal_power_default system_server:process setsched;
-
-set_prop(hal_power_default, vendor_power_prop)
-
