@@ -15,5 +15,8 @@ ro.af.client_heap_size_kbyte=7168
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
+# SKU
+ro.boot.hardware.sku=pdx201
+
 # System other
 ro.postinstall.fstab.prefix=/product
