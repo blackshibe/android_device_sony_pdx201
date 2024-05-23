@@ -311,7 +311,7 @@ PRODUCT_PACKAGES += \
 
 # Lights
 PRODUCT_PACKAGES += \
-    android.hardware.lights-service.sony
+    android.hardware.lights-service.sony.legacy
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
