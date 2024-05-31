@@ -15,5 +15,4 @@ r_dir_file(hal_fingerprint_default, vendor_sysfs_battery_supply)
 
 unix_socket_connect(hal_fingerprint_default, tad, tad)
 
-get_prop(hal_fingerprint_default, vendor_fingerprint_hwid_prop)
 set_prop(hal_fingerprint_default, vendor_fingerprint_hwid_prop)
