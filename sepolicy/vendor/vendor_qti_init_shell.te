@@ -1,0 +1,2 @@
+# Allow init.sony.sh to read LTALabel partition
+allow vendor_qti_init_shell vendor_ltalabel_block_device:blk_file r_file_perms;
