@@ -18,9 +18,6 @@ type idd_socket_file, file_type, mlstrustedobject;
 # LTALabel
 type lta_label, fs_type;
 
-# Sched
-type vendor_proc_energy_aware, fs_type, proc_type;
-
 # Security daemon
 type credmgrd_data_file, file_type, data_file_type;
 

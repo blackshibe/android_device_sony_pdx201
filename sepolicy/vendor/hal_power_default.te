@@ -1,22 +1,5 @@
 typeattribute hal_power_default mlstrustedsubject;
 
-allow hal_power_default {
-  vendor_proc_energy_aware
-  vendor_sysfs_devfreq
-  vendor_sysfs_graphics
-  vendor_sysfs_kgsl
-}:dir r_dir_perms;
-
-allow hal_power_default {
-  vendor_proc_energy_aware
-  vendor_sysfs_devfreq
-  vendor_sysfs_graphics
-  vendor_sysfs_kgsl
-}:{
-  file
-  lnk_file
-} rw_file_perms;
-
 allow hal_power_default vendor_latency_device:chr_file rw_file_perms;
 
 unix_socket_connect(hal_power_default, vendor_pps, hal_graphics_composer_default);
